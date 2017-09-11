@@ -1,9 +1,14 @@
-#初始化变量
-i = 5
-if i > 0:
-	print(i)
-	if i > 2:
-		print(i)
+#条件判断
+age = 11
+if age >= 18:
+	print('your age is:',age)
+	print('adult')
 else:
-	#打印错误信息
-	print('error')
+	print('your age is:',age)
+	print('not adult')
+
+birth = int(input('birth:'))
+if birth < 2000:
+	print('00前')
+else:
+	print('00后')
