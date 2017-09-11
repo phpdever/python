@@ -1,8 +1,8 @@
 #列表 list
 classname = ['phpdever','asp','php']
 hhh ='aaa'
-classname.insert(1,hhh)
-classname.pop(1)
+classname.insert(1,hhh)#向索引插入内容
+classname.pop(1)#删除索引内容
 for x in classname:
 	print(x)
 
