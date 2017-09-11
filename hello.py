@@ -1,1 +1,2 @@
-print("hello python!")
+name = input('please your name:')
+print('hello',name);
