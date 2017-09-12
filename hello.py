@@ -1,14 +1,13 @@
-#条件判断
-age = 11
-if age >= 18:
-	print('your age is:',age)
-	print('adult')
-else:
-	print('your age is:',age)
-	print('not adult')
+#for循环，累加1 - 10的和
+sum = 0 
+for x in [1,2,3,4,5,6,7,8,9,10]:
+	sum = sum + x
+print(sum)
 
-birth = int(input('birth:'))
-if birth < 2000:
-	print('00前')
-else:
-	print('00后')
+#累加从0-100的和
+sum = 0
+for x in range(101):
+	sum = sum + x
+print(sum)
+print(list(range(101)));
+
