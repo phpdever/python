@@ -1,13 +1,8 @@
-#for循环，累加1 - 10的和
-sum = 0 
-for x in [1,2,3,4,5,6,7,8,9,10]:
-	sum = sum + x
-print(sum)
-
-#累加从0-100的和
-sum = 0
-for x in range(101):
-	sum = sum + x
-print(sum)
-print(list(range(101)));
-
+class Bird(object):
+	have_feather = True
+	way_of_reprotuction = 'egg'
+	def move(self,dx,dy):
+		position = [0,0]
+		position[0] = position[0] + dx
+		position[1] = position[1] + dy
+		return position
